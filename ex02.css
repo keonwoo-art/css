@@ -2,7 +2,7 @@
 
 #h3 {background-color: gray;}
 h3 {background-color: yellow;}
-.h3 {background-color: aqua;} <!--태그 선택자보다 클래스 선택자의 우선순위가 높음-->
+.h3 {background-color: aqua;} 
 
 
 
@@ -15,8 +15,6 @@ h3 {background-color: yellow;}
 .class03 { height: 200px; background-color: gray;}
 #div3 { color: blue; width: 200px;}
 #div4 { background-color: aqua;}
-
-<!--한 클래스 안에 설정이 두 개일 때, 마지막에 있는 것을 기준으로 함-->
 
 h1 { color: skyblue;}
 h1 { background-color: gray; }
