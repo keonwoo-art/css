@@ -1,0 +1,6 @@
+* {background-color: lightgray;} 
+h2 {color: gold;}
+#main > div > h2 {color: black}
+#main > h2:hover + div>h2 { color: aqua}
+#main > div > div > span:nth-child(1):hover +br+span {background-color: red;}
+
