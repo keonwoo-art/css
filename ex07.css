@@ -1,0 +1,37 @@
+
+
+
+
+#div4 {border: 1px solid; width: 300px; height: 200px;}
+#div4 div {display: inline-block; width:95px; height: 100px; background-color: red;
+        margin-right: 7.5px;}
+
+/* 
+#div4 div:nth-of-type(3){
+    margin-right: 0;
+    background-color: aqua;
+}
+    */
+
+#div4 div:nth-child(3n) {margin-right: 0;}
+
+
+#span { background-color: gold; width: 200px; margin:auto; 
+    padding: 20px; text-align: right; display: block;} /*inline이라서 width도 안 먹고, margin도 안 먹음 padding은 먹음. 다 먹게 하려면 diplay: block 해주면 됨 */
+
+
+#div2{ width: 100px; height: 100px; background-color: red; margin:  auto;}
+#div3{ width: 200px; height: 200px; background-color: green;}
+#div3 > div {margin: auto;  width: 50px; height: 50px; background-color: gold;}
+
+
+#div1{
+    background-color: goldenrod;
+    width: 300px; height: 300px;
+    border: 15px solid navy;
+    /*
+    margin: 50px 0 0 50px;
+    */
+    margin: 25px 100px; /*두 개일 때는, 첫 번째 숫자는 위아래, 두 번째 숫자는 좌우 마진*/
+    padding-top: 100px;
+}
