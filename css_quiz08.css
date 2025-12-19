@@ -1,0 +1,15 @@
+#nav {width: 400px; background-color: rgb(156, 211, 156);}
+li {list-style: none; width: 100px; text-emphasis: center; height: 40px; line-height: 40px;}
+.menu1 {
+    height: 0;
+    width: 100px;
+    margin-left: 100px;
+    background-color: skyblue;
+    border-radius: 15px;
+    overflow: hidden;
+    
+    margin-top: -40px;
+    
+}
+
+#menu li:hover .menu1 {height: 120px; border: 1px solid;}

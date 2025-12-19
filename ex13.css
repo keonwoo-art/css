@@ -1,0 +1,23 @@
+#nav {width: 202px; height: 165px;  border: 1px solid black;}
+#menu {background-color: green; display: flex;}
+.menu1 {
+    position: absolute; top: 40px; left: 0px;
+    background-color: skyblue;
+    height: 0; overflow: hidden;
+    transition: 1s;
+}
+
+#menu > li {position: relative;}
+
+#menu li:hover .menu1 {height: 120px;}
+ul > li >ul { border: 1px solid black; border-radius: 10px;}
+
+
+li {width: 100px; list-style: none; text-align: center; height: 40px; line-height: 40px;}
+ul {margin: 0; padding: 0;}
+
+
+
+#div1 {width: 100px; height: 100px; background-color: gold;
+transition: 1s; transition-delay: 1s;}
+#div1:hover {width: 300px; background-color: red;}
