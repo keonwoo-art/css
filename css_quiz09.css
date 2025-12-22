@@ -1,0 +1,20 @@
+
+
+#div1 {width: 100px; height: 100px; border-radius: 100px; overflow: hidden;}
+
+img {width: 100px; height: 100px;
+    transition: 1s;
+}
+
+#div1:hover > img {transform: scale(4) rotate(720deg); transition: 2s;}
+#div1:hover ~#div2{ margin-top: 0;
+        color: navy;
+        transition: 1s;
+    }
+#div2 { 
+    transition: 2s;
+    width: 100px; text-align: center;
+    margin-top: -70px; color: gold;
+    font-size: 30px;
+
+}
